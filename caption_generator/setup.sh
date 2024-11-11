@@ -10,7 +10,7 @@ cd checkpoints
 pip install en_core_web_sm-2.3.0.tar.gz
 # llama 3
 cd llama3-8b
-huggingface-cli download meta-llama/Meta-Llama-3-8B-Instruct --token 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 --local-dir . --local-dir-use-symlinks False
+huggingface-cli download meta-llama/Meta-Llama-3-8B-Instruct --token hf_xxxxxxxxxxxxxxxxxxxxxxxxx --local-dir . --local-dir-use-symlinks False
 # Mistral
 cd ../mistral-7b
-huggingface-cli download mistralai/Mistral-7B-Instruct-v0.2 --token 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 --local-dir . --local-dir-use-symlinks False
+huggingface-cli download mistralai/Mistral-7B-Instruct-v0.2 --token hf_xxxxxxxxxxxxxxxxxxxxxxxxx --local-dir . --local-dir-use-symlinks False
