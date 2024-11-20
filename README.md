@@ -4,7 +4,7 @@ Mastering Unified High-Quality Image Editing for Any Idea
 AnyEdit is a comprehensive multimodal instruction editing dataset, comprising 2.5 million high-quality editing pairs spanning over 20 editing types across five domains. We ensure the diversity and quality of the AnyEdit collection through three aspects: initial data diversity, adaptive editing process, and automated selection of editing results. Using the dataset, we further train a novel AnyEdit Stable Diffusion with task-aware routing and learnable task embedding for unified image editing. Comprehensive experiments on three benchmark datasets show that AnyEdit consistently boosts the performance of diffusion-based editing models. This presents prospects for developing instruction-driven image editing models that support human creativity.
 
 # 💡 Overview
-![image](figures/main_figures/final_example_00.png)
+![image](figures/main_figures/figure1_dataset_00.png)
 We comprehensively categorize image editing tasks into 5 groups based on different editing capabilities:
 - (a) Local Editing which focuses on region-based editing (green area);
 - (b) Global Editing which focuses on the full range of image rendering (yellow area);
