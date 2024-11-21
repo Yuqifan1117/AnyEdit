@@ -43,12 +43,12 @@ bash setup.sh
 ```
 
 1. Download all of our candidate datasets.
-2. Instruction Generation (please ref to [CaptionsGenerator](AnyEdit_Collection/diverse_Instruction_generation/README.md)).
+2. Instruction Generation (please ref to CaptionsGenerator).
 3. Pre-filter for target images (before editing)
 ```bash
 CUDA_VISIBLE_DEVICES=2 python pre_filter.py --instruction-path [xx.json] --instruction-type [] --image-root []
 ```
-4. Image Editing (refer to [scripts](scripts) for more examples)
+4. Image Editing (refer to scripts for more examples)
 5. Post-filter for final datasets
 ```bash
 CUDA_VISIBLE_DEVICES=2 python post_filter.py --instruction-type []
